@@ -6,7 +6,7 @@
 /*   By: cjenog <cjenog@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/16 19:04:35 by cjenog            #+#    #+#             */
-/*   Updated: 2021/03/16 19:06:20 by cjenog           ###   ########.fr       */
+/*   Updated: 2021/03/17 22:50:55 by cjenog           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_base_exception(char *base)
 {
 	int i;
 
-	if (base[0] == 0 || base[1] == 1)
+	if (ft_len(base) < 2)
 		return (1);
 	while (*base != 0)
 	{
